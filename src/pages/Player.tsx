@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react"
+// import { MessageCircle } from "lucide-react"
 import { Header } from "../components/Header"
 import { Module } from "../components/Module"
 import { Video } from "../components/Video"
@@ -14,10 +14,10 @@ export function Player() {
       <div className="flex w-275 flex-col gap-6">
         <div className="flex items-center justify-between">
           <Header />
-          <button className="flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white hover:bg-violet-600">
+          {/* <button className="flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white hover:bg-violet-600">
             <MessageCircle className="w-4 h-4" />
             Deixar feedback
-          </button>
+          </button> */}
         </div>
         <main className="relative pr-80 flex overflow-hidden rounded-lg border boder-zinc-800 bg-zinc-900 shadow">
           <div className="flex-1">
